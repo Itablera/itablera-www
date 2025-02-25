@@ -3,6 +3,7 @@ import { ThemeToggle } from "./components/ThemeToggle"
 import { Logo } from "./components/Logo"
 import { EmailLink } from "./components/EmailLink"
 import { ThemeProvider } from "./context/ThemeContext"
+import './App.css'
 
 function App() {
   return (
