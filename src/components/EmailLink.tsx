@@ -9,7 +9,7 @@ export function EmailLink() {
     <a
       href="#"
       onClick={handleClick}
-      className="text-center text-lg font-medium text-foreground hover:underline sm:text-xl md:text-2xl"
+      className="text-center text-xl tracking-widest font-light font-sans text-gray-900 dark:text-white hover:underline"
     >
       {"hi" + "@" + "itablera.se"}
     </a>

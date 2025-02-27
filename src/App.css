@@ -2,4 +2,9 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 
-
+@theme {
+  --color-background-10: oklch(0.21 0.034 264.665);
+  --color-background-8: oklch(0.278 0.033 256.848);
+  --color-foreground-10: oklch(0.72 0.11 178);
+  --color-foreground-8: oklch(0.72 0.11 178);
+}
