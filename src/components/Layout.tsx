@@ -10,7 +10,7 @@ export function Layout({ children }: LayoutProps) {
 
   return (
     <div className={`min-h-screen w-full ${theme}`}>
-      <div className="relative min-h-screen w-full bg-gradient-to-b from-background to-background/80 transition-colors duration-300">
+      <div className="relative min-h-screen w-full bg-gradient-to-b from-background to-background/80 text-foreground transition-colors duration-300">
         {children}
       </div>
     </div>
